@@ -17,3 +17,6 @@ let gugu = 8;
 let string = `${dan} 곱하기 ${gugu} 은/는 ${dan * gugu} 입니다`;
 console.log(string);
 
+let studentScore = [80, 70, 90, 60];
+console.log(studentScore);
+console.log(studentScore[2]);

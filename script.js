@@ -20,3 +20,21 @@ console.log(string);
 let studentScore = [80, 70, 90, 60];
 console.log(studentScore);
 console.log(studentScore[2]);
+
+let stdScore = {
+    koreanScore: 80,
+    englishScore: 70,
+    matheScore: 90,
+    scieneScore: 60
+};
+
+console.log(stdScore);
+console.log(stdScore.koreanScore);
+
+for (dan = 2; dan <= 9; dan++) {
+    for (let i = 1; i <= 9; i++) {
+        console.log(`${dan} X ${i} = ${dan * i}`);
+
+    }
+    console.log(` `);
+};
